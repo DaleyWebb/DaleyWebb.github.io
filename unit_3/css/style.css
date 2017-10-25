@@ -1,0 +1,20 @@
+body {
+	color: #3A405A; 
+	font-family: helvetica; 
+	text-align: center;
+}
+h1 {
+	color: #89B0AE;
+}
+#slogan {
+	font-style: italic; 
+	color: #627C85;
+}
+ul {
+	list-style-type: none;
+}
+.bus {
+	width: 1280px;
+	height: auto;
+}
+
