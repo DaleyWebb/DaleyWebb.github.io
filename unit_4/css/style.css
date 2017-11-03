@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Lato');
+body {
+	color: #3A405A; 
+	font-family: helvetica; 
+}
+p {
+	font-family: 'Lato', sans-serif;
+}
+.top {
+	    background-image: url(../images/vwbus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+}
+h1 {
+	color: #89B0AE;
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.0625em;
+	text-align: center;
+}
+#slogan {
+	color: #627C85;
+	text-transform: uppercase;
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+}
+.whitestrip {
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 30px;
+}
+
+
+
