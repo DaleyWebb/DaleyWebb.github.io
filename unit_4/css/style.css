@@ -21,11 +21,16 @@ h1 {
 	text-align: center;
 }
 h2 {
-	color: 132b70;
+	color: #132b70;
 	font-family: 'Fjalla One', sans-serif;
 	letter-spacing: 0.0625em;
 	text-align: center;
-	font-size: 1em;
+}
+h3 {
+	color: #3d3d3d;
+	font-family: 'Fjalla One', sans-serif;
+	letter-spacing: 0.0625em;
+	text-align: center;
 }
 #slogan {
 	color: #627C85;
