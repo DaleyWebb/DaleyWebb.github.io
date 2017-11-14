@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Lato');
+body {
+	color: #3A405A; 
+	font-family: helvetica; 
+}
+header {
+	background-color: #ffed74;
+	border: 1px black solid;
+	padding: 20px;
+}
+aside{
+	background-color: #ffc675;
+	border:1px black solid;
+	padding: 20px;
+}
+article {
+	background-color: #e89c6c;
+	border: 1px black solid;
+	padding: 20px;
+}
+footer {
+	background-color: #ff957e;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+}
+.top {
+	    background-image: url(../images/vwbus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+}
+h1 {
+	color: #89B0AE;
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.0625em;
+	text-align: center;
+}
+h2 {
+	color: #132b70;
+	font-family: 'Fjalla One', sans-serif;
+	letter-spacing: 0.0625em;
+	text-align: center;
+}
+h3 {
+	color: #3d3d3d;
+	font-family: 'Fjalla One', sans-serif;
+	letter-spacing: 0.0625em;
+	text-align: center;
+}
+#slogan {
+	color: #627C85;
+	text-transform: uppercase;
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+}
+
+
+
+
+
+
