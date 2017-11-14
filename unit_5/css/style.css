@@ -65,8 +65,25 @@ h3 {
 ul {
 	list-style-type: none;
 }
+.image {
+	width: 20%;
 
-
+}
+.bio {
+	width: 70%;
+}
+.illustrations {
+	width: 50%;
+}
+.logos {
+	width: 50%;
+}
+.mobile {
+	width: 50%;
+}
+.invites {
+	width: 50%;
+}
 
 
 
