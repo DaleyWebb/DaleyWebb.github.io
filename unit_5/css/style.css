@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Lato');
+
 body {
 	color: #3A405A; 
 	font-family: helvetica; 
@@ -8,16 +9,19 @@ header {
 	border: 1px black solid;
 	padding: 20px;
 }
-aside{
-	background-color: #ffc675;
-	border:1px black solid;
-	padding: 20px;
-}
-article {
-	background-color: #e89c6c;
+
+section {
+	background-color:  #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
 }
+
+div {
+	background-color:  #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
 footer {
 	background-color: #ff957e;
 	border: 1px black solid;
@@ -28,7 +32,7 @@ p {
 	font-family: 'Lato', sans-serif;
 }
 .top {
-	    background-image: url(../images/vwbus.jpg);
+	background-image: url(../images/vwbus.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
