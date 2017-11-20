@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Lato');
+
+body {
+	color: #3A405A; 
+	font-family: lato, sans-serif; 
+	font-size: 18px;
+	line-height:1.2em;
+}
+header {
+	padding-top: 40px;
+}
+
+section {
+	padding: 20px;
+}
+
+
+footer {
+	background-color: #bfced7;
+	border: 1px black solid;
+	padding: 20px;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	line-height: 1.3em;
+}
+.top {
+	background-image: url(../images/vwbus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+}
+.banner{
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+	color: #89B0AE;
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.0625em;
+	text-align: center;
+	font-size:3em;
+	line-height: 1.3em;
+}
+h2 {
+	color: #132b70;
+	font-family: 'Fjalla One', sans-serif;
+	letter-spacing: 0.0625em;
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+h3 {
+	color: #3d3d3d;
+	font-family: 'Fjalla One', sans-serif;
+	letter-spacing: 0.0625em;
+	text-align: center;
+	font-size: 1em;
+	line-height: 1em;
+}
+
+#slogan {
+	color: #627C85;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'lato', sans-serif;
+}
+ul {
+	list-style-type: none;
+}
+hr {
+	border: 0.04em solid;
+	display: inline-block;
+	width: 5em;
+	color: #90AFAE;
+}
+.title {
+	text-align:center;
+	width: 50%;
+	box-sizing: border-box;
+	margin: auto;
+}
+#wrapbuttons{
+	width: 30%;
+	margin: auto;
+	padding:20px;
+}
+#buttonleft {
+	float:left;
+	text-align: center;
+	background-color: #90AFAE;
+	padding: 10px;
+}
+#buttonright{
+	float: right;
+	text-align: center;
+	background-color: #90AFAE;
+	padding: 10px;
+}
+#buttonright:hover {
+	background: #677B84;
+	color: white;
+}
+#buttonleft:hover {
+	background: #677B84;
+	color: white;
+}
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+#left {
+	background-color: #E582A2;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+#right {
+	background-color:  #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 62%;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#two_column1 {
+	padding: 0px;
+	padding: 10px;
+}
+
+#left1 {
+	background-color: #D4D4D4;
+	padding: 0.8em;
+	margin: 1.5%;
+	width: 28%;
+	min-width: 18em;
+	float: left;
+	display: inline-block;
+	
+}
+
+
+#right1 {
+	background-color: #D4D4D4;
+	padding: 0.8em;
+	margin: 1.5%;
+	width: 28%;
+	min-width: 18em;
+	float: right;
+	display: inline-block;
+}
+
+
