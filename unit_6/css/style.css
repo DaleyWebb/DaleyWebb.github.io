@@ -154,8 +154,6 @@ hr {
 	display: inline-block;
 	
 }
-
-
 #right1 {
 	background-color: #D4D4D4;
 	padding: 0.8em;
@@ -165,5 +163,8 @@ hr {
 	float: right;
 	display: inline-block;
 }
-
+.contact {
+	background-color: #90AFAE
+}
+;
 

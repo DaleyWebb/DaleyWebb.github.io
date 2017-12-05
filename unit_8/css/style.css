@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Lato');
+
+body {
+	color: #3A405A; 
+	font-family: lato, sans-serif; 
+	font-size: 100%;
+
+	line-height:1.2em;
+}
+
+nav {
+	padding: 0 24%;
+	position: fixed;
+	top: 0;
+	clear: both;
+	width: 100%;
+	background-color: #3d3d3d;
+}
+
+nav a {
+	float:left;
+	color: white;
+	font-weight: 200;
+	padding: 1em 0; 
+	width: 10%;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	color: #90afae;
+}
+
+header {
+	padding-top: 2em;
+}
+
+section {
+	padding: 1em;
+}
+
+
+footer {
+	background-color: #bfced7;
+	padding: 1em;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	line-height: 1.3em;
+}
+.blurb2 {
+	font-family: 'Lato', sans-serif;
+	line-height: 1.3em;
+	text-align: left;
+}
+.top {
+	background-image: url(../images/vwbus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40em;
+    background-position: center;
+    padding-top: 2em;
+}
+.banner{
+	background-color: rgba(255, 255, 255, 0.8);
+	height: 13em;
+}
+
+h1 {
+	color: #89B0AE;
+	font-family: 'Fjalla One', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.0625em;
+	text-align: center;
+	font-size: 3em;
+	line-height: 1.3em;
+}
+#dd {
+	padding-top: .6em;
+	font-size:3em;
+}
+h2 {
+	color: #132b70;
+	font-family: 'Fjalla One', sans-serif;
+	letter-spacing: 0.0625em;
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+h3 {
+	color: #3d3d3d;
+	font-family: 'Fjalla One', sans-serif;
+	letter-spacing: 0.0625em;
+	text-align: center;
+	font-size: 1em;
+	line-height: 1em;
+}
+
+#slogan {
+	color: #627C85;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'lato', sans-serif;
+	font-size: 1.5em;
+}
+ul {
+	list-style-type: none;
+}
+hr {
+	border: 0.04em solid;
+	display: inline-block;
+	width: 5em;
+	color: #90AFAE;
+}
+.title {
+	text-align:center;
+	width: 50%;
+	box-sizing: border-box;
+	margin: auto;
+	padding: 1.5em;
+}
+#wrapbuttons{
+	width: 20%;
+	margin: auto;
+	padding: 1em;
+}
+#buttonleft {
+	float:left;
+	text-align: center;
+	background-color: #90AFAE;
+	padding: .7em;
+}
+#buttonright{
+	float: right;
+	text-align: center;
+	background-color: #90AFAE;
+	padding: .7em;
+}
+#buttonright:hover {
+	background: #677B84;
+	color: white;
+}
+#buttonleft:hover {
+	background: #677B84;
+	color: white;
+}
+#two_column {
+    padding: 1em;
+}
+#left {
+    padding: 1em;
+    float: left;
+    width: 25%;
+}
+#right {
+    padding: 1em;
+    float: right;   
+    width: 67%;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#two_column1 {
+	padding: 0px;
+	padding: .7em;
+}
+
+.left1 {
+	background-color: #D4D4D4;
+	padding: 0.8em;
+	margin: 1.5%;
+	width: 28%;
+	min-width: 18em;
+	display: inline-block;
+	
+}
+#right1 {
+	background-color: #D4D4D4;
+	padding: 0.8em;
+	margin: 1.5%;
+	width: 28%;
+	min-width: 18em;
+	float: right;
+	display: inline-block;
+}
+.contact, .place {
+	background-color: #90AFAE;
+	width: 15%;
+    padding: 1em;
+    text-align: center;
+}
+.contact:hover {
+	background-color: #677b84;
+}
+.place {
+	margin: auto;
+	color: white;
+}
+.blurb {
+	text-align: center;
+    max-width: 60%;
+    margin: auto;
+    padding: 1em;
+
+}
+.timeline {
+	background-color: aliceblue;
+
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#toggle {
+
+	display: none;
+}
+
+input[type=submit]:hover {
+	cursor:pointer;
+}
+
+input[type=text] {
+	width:20em;
+}
+
+
+@media only screen and (max-width: 1500px) {
+	#wrapbuttons{
+		width: 25%;
+	}	
+	nav {
+		padding: 0 25%;
+	}
+}
+
+@media only screen and (max-width: 1360px) {
+	.left1 {
+		width: 44%;
+	}
+	
+
+}
+
+@media only screen and (max-width: 1224px) {
+	#buttonright {
+		float: none;
+	}
+	#buttonleft {
+		float: none;
+		margin-bottom: 1em;
+	}
+	.banner {
+		height: 17em;
+	}
+	
+}
+
+@media only screen and (max-width: 1041px) {
+	.left1 {
+		width: 97%;
+		margin: 1.5% 0% 1.5% 0%;
+	}
+	.blurb2, .blurb {
+		display: none;
+	}
+	
+	.place {
+		margin: auto auto 2em auto;
+	}
+	.contact, .place {
+		width: 45%;
+	}
+	nav {
+		padding: 0 9%;
+	}
+	nav a {
+		width: 16%;
+	}
+}
+
+@media only screen and (max-width: 936px){
+
+	#right {
+		float: left;
+		width: 96%;
+	}
+	#left {
+		float: none;
+		width: 35%;
+		margin: auto;
+		padding-left: 5em;
+	}
+	
+	.contact {
+		display: none;
+	}
+	li {
+		display: none;
+	}
+	nav {
+		padding: 0 9%;
+	}
+	.top {
+		padding-top: 1em;
+	}
+}
+@media only screen and (max-width: 780px){
+	nav {
+		font-size: .9em;
+		    padding: 0 9%;
+	}
+	.place {
+		width: 80%;
+	}
+	nav a {
+
+		width: 16%;
+	}
+
+}
+@media only screen and (max-width: 700px){
+	nav {
+		font-size: .8em;
+		    padding: 0 9%;
+	}
+	.top {
+		padding-top: 1em;
+	}
+	#wrapbuttons {
+		width: 35%;
+	}
+	.place {
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 633px){
+
+	nav{
+		display: none;
+	}
+
+	#toggle:checked + nav{
+		display: block;
+		top: 2.75em;
+		padding: 0;
+	}
+	input[type=text] {
+		width:100%;
+	}
+	body > label {
+		    background-color: #90afae;
+    width: 100%;
+    margin: auto;
+    display: block;
+    height: 2em;
+    text-align:center;
+    padding-top: .5em;
+    clear: both;
+	}
+	.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+	}
+	.place {
+		width: 80%;
+	}
+	nav a {
+
+		width: 100%;
+	}
+
+}
+
+@media only screen and (max-width: 540px){
+	#slogan {
+		font-size: 1em;
+	}
+	#dd {
+		font-size: 2em;
+	}
+	.top {
+		padding-top: 0;
+		height: 26em;
+	}
+	#wrapbuttons {
+		width: 90%;
+	}
+#left {
+    float: none;
+    width: 73%;
+    margin: auto;
+    padding-left: 4em;
+	}
+	.place {
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 540px) {
+	h1 {
+		font-size: 2em;
+	}
+	.left1 {
+		width: 90%;
+		margin: .37em;
+	}
+
+}
+
